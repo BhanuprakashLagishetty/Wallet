@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Wallet Pass Generator</title>
+  </head>
+  <body>
+    <button id="create-and-generate-btn">Create and Generate Pass</button>
+    <div id="result"></div>
+
+    <script>
+      document
+        .getElementById("create-and-generate-btn")
+        .addEventListener("click", async () => {
+          const resultDiv = document.getElementById("result");
+          resultDiv.innerHTML = "Processing...";
+
+          try {
+            const response = await fetch(
+              "http://localhost:3000/create-and-generate",
+              {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                  passType: "ticket",
+                }),
+              }
+            );
+
+            if (!response.ok) {
+              throw new Error("Network response was not ok");
+            }
+
+            const data = await response.json();
+            const saveLink = data.saveLink;
+
+            resultDiv.innerHTML = `
+                    <p>Class ID: ${data.classId}</p>
+                    <p>Pass ID: ${data.passId}</p>
+                    <a href="${saveLink}" target="_blank" rel="noopener noreferrer">Save to Google Wallet</a>
+
+
+
+
+                `;
+
+       
+          } catch (error) {
+            resultDiv.innerHTML = `Error: ${error.message}`;
+          }
+        });
+
+      const update = async (passId) => {
+        const resultDiv = document.getElementById("result");
+        resultDiv.innerHTML = "Deleting...";
+
+        try {
+          const response = await fetch(
+            `http://localhost:3000/update-pass/${passId}`,
+            {
+              method: "PATCH",
+            }
+          );
+
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
+
+          const data = await response.json();
+
+          console.log(data, passId, "datadatadata");
+        } catch (error) {
+          resultDiv.innerHTML = `Error: ${error.message}`;
+        }
+      };
+    </script>
+  </body>
+</html>

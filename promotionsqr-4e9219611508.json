@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "promotionsqr",
+  "private_key_id": "4e9219611508762c13f5b660d155568c7cdb36eb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCd4leDyNJx7Ntz\nCaRHs7QxWePUTTa4R7ZUCu3n28lPqyESizxobGejdgumpT5uUO8JEdkmbz35GAAD\nQKDzsC0pRc1ypDQ6UVdGs3bbD8ngcQD8zpwWHOAtW7+01kjFDBlsIpqH6DE3PztK\nVBodSc0KY2e4vdvR6yQJcs/YwL9U+o6sotT+YpKY0qZWbBxS7Bsrk3lEr/li5Y9G\niJ7k0cnru7gdkQoQSoozI8b04n7WHpAcwc4rGnzqnwi7kbBQD3xA2ciLdcN/tgNM\n8atEGuLZnnsDfJU3mpC4pmb/Njss1t9yqZiVSDc0OhDu192tu2VCmxcWQvird3oh\n75qqosDnAgMBAAECggEAK9pBSoZOBXyvW11zNsMwKoD4KfCkYTzx5JgAimTennU+\nw2LPDYYGpz1TcR72nzd1nURK10UQpo5G+qBJ1EW71Xng3ZXEN+p93lJcke3puaBJ\nkO5mJjIxBgg00CqwnaKFsSZPW65fdSPn+PYxJq9n9xmzJnn9g2nXYZR1LJQk0Joz\nlotQ+y+zZEE55tD9pvy3k4tH/y1KqfrMxX02NipsedPJZO/hSZbxbiWFrVCavcFQ\nVONQVQAK+uejXiP51+JVhkmLuii3tG19dUvqOQyoOTfWoa4rdMqotLpU8o3VCkc2\nD7o1CRWq3BAANvMiP8sYThrB5GPsksfv5aTn2sVRuQKBgQDSulcfJAxzu/ofosSz\nPXDyxgFxusnWaJFSEQLgee5FIXnNCghAYQXu4VEznJ/1s/BgCGf5Wp06cHfU019y\nt/rzRBkxBbwbb+8AeIyjdMGWPQb/6b5MD8uHKpl78nweVEQ3NHuAlJaG+GwFU97d\n7vyfoeqpIY8ilhXadLkwluzXpQKBgQC/zbCCzxcJgCwFCN3ttEENlnxV83E9+eaP\neicyxksWlYPm0aR2PRUOrqSh2L27bxuNY4Uds6O5VFsCYMlz7HzPolmzx8L/JDkf\n9VrBu0DsVXw2sBYOC/J04gmwJyQ+EAzhGlsy+P3NLipFR+wOxBzXlYktkhAYFpVp\nFmlC6hRwmwKBgQCFWWXITweSNWISou3Wfwr6llJTpeATzhgn1pv7cS1WkdiB59dQ\n5hTbFbpM7tBKq5NxMeCZ6r2UPZeXFitQbRxg1LccToS62BpmMeLNjRTz/apwR3ok\np9ojrtFxngDtMGX6iTueImkfABVbSbe+uX0jh1L3tETfnho2I6cNGHTIAQKBgQCW\nfPAs8gcFMUdYe+iEhJU18AiF94e2NMitcg4nTGXFxnHDPGFpU+udpXEOe1wCH97i\nRF9BOp0O4By39PCav8X9s0fmQqnAPc+EP6GBt0XtJ/VZgzcKtlz5UBCB4XQSLc2t\nIFzF1Y5s2ffYe+G+hCiNDYqf8qYmADIiTa8xDTAUWQKBgDzPMa/E+1QaqOA4Ekv5\npu1VS0ZkH9/709eKEq3zh9AMrHWjw7IP0qX5Jc1IetL45xN3WCCUEhjJLYM1w1tz\nloenHiy7RlDGBIFVHyEqZAJRz41k4sijql+IaRYsVw2JmKznqxrefdbRUWIn0lEY\nX1FuZmWKh7MIeXBY+7gl5V3c\n-----END PRIVATE KEY-----\n",
+  "client_email": "promotions-service@promotionsqr.iam.gserviceaccount.com",
+  "client_id": "115444423559239508008",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/promotions-service%40promotionsqr.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
